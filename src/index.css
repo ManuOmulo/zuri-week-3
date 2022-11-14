@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;600;700&display=swap');
+
+:root {
+  font-size: 16px;
+  font-family: "Red Rose", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0.5em auto 0;
+  border: 2px solid red;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}

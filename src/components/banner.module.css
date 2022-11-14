@@ -1,0 +1,12 @@
+.bannerContainer {
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 4em;
+  background-color: #A02279;
+}
+
+.bannerContainer img {
+  height: 40px;
+}

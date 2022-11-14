@@ -1,0 +1,15 @@
+.adventure {
+  margin: 5em auto;
+  width: 80%;
+  border: 2px solid green;
+}
+
+.adventure h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.adventure .itemsContainer {
+  width: 100%;
+  margin-top: 5em;
+}

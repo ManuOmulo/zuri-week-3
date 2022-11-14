@@ -1,0 +1,38 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4em;
+  width: 100%;
+  z-index: 100;
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links li {
+  margin: 0 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  color: #fff;
+  border-radius: 10px;
+}
