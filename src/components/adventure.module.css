@@ -1,7 +1,6 @@
 .adventure {
   margin: 5em auto;
   width: 80%;
-  border: 2px solid green;
 }
 
 .adventure h2 {
@@ -9,7 +8,11 @@
   font-size: 48px;
 }
 
-.adventure .itemsContainer {
+.adventure .itemContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
   width: 100%;
-  margin-top: 5em;
+  margin: 5em 0;
 }

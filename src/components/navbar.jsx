@@ -5,24 +5,26 @@ import styles from './navbar.module.css'
 export const Navbar = ({}) => {
   return (
     <nav className={styles.navbar}>
-      <div className={styles.logoContainer}>
-        <div className={styles.logo1}>
-          <img src={logo2} alt="logo" />
+      <div className={styles.wrapper}>
+        <div className={styles.logoContainer}>
+          <div className={styles.logo1}>
+            <img src={logo2} alt="logo" />
+          </div>
+
+          <div className={styles.logo2}>
+            <img src={logo1} alt="logo2" />
+          </div>
         </div>
 
-        <div className={styles.logo2}>
-          <img src={logo1} alt="logo2" />
-        </div>
+        <ul className={styles.links}>
+          <li>Home</li>
+          <li>Place to stay</li>
+          <li>NFTs</li>
+          <li>Community</li>
+        </ul>
+
+        <a className={styles.button} href="#">Connect Wallet</a>
       </div>
-
-      <ul className={styles.links}>
-        <li>Home</li>
-        <li>Place to stay</li>
-        <li>NFTs</li>
-        <li>Community</li>
-      </ul>
-
-      <a className={styles.button} href="#">Connect Wallet</a>
     </nav>
   );
 };
