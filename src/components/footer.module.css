@@ -59,7 +59,7 @@
 
 @media (max-width: 764px) {
   .footer {
-    height: 700px;
+    height: 1000px;
   }
   .footer .wrapper .top {
     display: flex;
