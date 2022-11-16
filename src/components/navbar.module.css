@@ -101,6 +101,14 @@ p {
 
 
 @media (max-width: 1024px) {
+  /* .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    margin: 0;
+  } */
+
   .hamburger {
     display: block;
     font-size: 30px;
