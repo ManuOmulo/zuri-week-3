@@ -48,6 +48,7 @@
 .card .cardDetails .row1 p,
 .card .cardDetails .row2 p {
   margin: 10px 0 0;
+  font-size: 12px;
 }
 
 .card .cardDetails .row1 p:nth-of-type(2) {
