@@ -59,8 +59,55 @@
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 1550px) {
+  .title h1 {
+    font-size: 40px;
+  }
+
+  .title p {
+    font-size: 20px;
+    margin-bottom: 2em;
+  }
+
+  .title form input {
+    width: 300px;
+  }
+}
+
+
+@media (max-width: 1250px) {
+  .title h1 {
+    font-size: 32px;
+  }
+
+  .title p {
+    font-size: 20px;
+    margin-bottom: 2em;
+  }
+
+  .title form input {
+    width: 200px;
+  }
+
+  .photos img {
+    transform: scale(0.7);
+  }
+}
+
+
+@media (max-width: 764px) {
   .heroContainer {
-    width: 90%;
+    margin: 2em 0;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .title {
+    width: 95%;
+    margin: 0 auto 5em;
+  }
+
+  .photos {
+    display: none;
   }
 }

@@ -15,6 +15,7 @@
 .footer .wrapper .top {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .footer .wrapper .top .logo {
@@ -53,4 +54,15 @@
 
 .copyright p span {
   margin-left: 10px;
+}
+
+
+@media (max-width: 764px) {
+  .footer {
+    height: 700px;
+  }
+  .footer .wrapper .top {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -86,3 +86,25 @@ p {
 .buttonModal .wrapper h4 {
   margin-left: 15px;
 }
+
+
+@media (max-width: 764px) {
+  .navbar {
+    width: 100%;
+    justify-content: flex-start;
+    /* border: 2px solid red; */
+  }
+
+  .wrapper {
+    /* border: 2px solid green; */
+  }
+
+  .links {
+    display: none;
+  }
+
+  .logoContainer {
+    transform: scale(0.7);
+    margin: 0;
+  }
+}

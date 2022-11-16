@@ -76,3 +76,31 @@
   transform: translateX(500px) translateY(100px) rotate(-8.76deg);
   z-index: 3;
 }
+
+
+@media (max-width: 1024px) {
+  .container .nft .photos {
+    display: none;
+  }
+
+  .container .nft .details {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 764px) {
+  .container .nft .photos {
+    display: none;
+  }
+
+  .nft {
+    margin: 0;
+  }
+
+  .container .nft .details {
+    margin: 0;
+    width: 100%;
+  }
+}

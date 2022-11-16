@@ -10,3 +10,10 @@
 .bannerContainer img {
   height: 40px;
 }
+
+
+@media (max-width: 764px) {
+  .bannerContainer img {
+    height: 20px;
+  }
+}
