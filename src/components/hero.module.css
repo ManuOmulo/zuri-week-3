@@ -57,3 +57,10 @@
 .photos img:nth-of-type(4) {
   transform: translateY(-90px);
 }
+
+
+@media (max-width: 1024px) {
+  .heroContainer {
+    width: 90%;
+  }
+}
