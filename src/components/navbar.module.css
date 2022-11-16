@@ -107,4 +107,8 @@ p {
     transform: scale(0.7);
     margin: 0;
   }
+
+  .button {
+    display: none;
+  }
 }
