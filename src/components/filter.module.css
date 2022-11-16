@@ -23,6 +23,10 @@
   border-radius: 8px;
 }
 
+.filterContainer .filter p{
+  margin: 0;
+}
+
 .filterContainer .filter .icon {
   position: relative;
   width: 20px;
