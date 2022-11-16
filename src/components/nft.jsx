@@ -1,4 +1,4 @@
-import nft1 from '../assets/nfts/image8.png'
+import nft1 from '../assets/nfts/image1.png'
 import nft2 from '../assets/nfts/image2.png'
 import nft3 from '../assets/nfts/image3.png'
 

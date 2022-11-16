@@ -1,0 +1,56 @@
+.footer {
+  height: 322px;
+  width: 100%;
+  background-color: #1D1D1E;
+  color: #fff;
+  border: 2px solid #1D1D1E;
+}
+
+.footer .wrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin: 2em auto;
+}
+
+.footer .wrapper .top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .wrapper .top .logo {
+  display: flex;
+  font-size: 20px;
+}
+
+.linksContainer .links {
+  display: flex;
+  margin-top: 7em;
+}
+
+.linksContainer .links li {
+  font-size: 24px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.top .list ul {
+  margin-top: 2em;
+}
+
+.top .list ul li {
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.copyright {
+  margin-top: 2em;
+}
+
+.copyright p {
+  font-size: 14px;
+}
+
+.copyright p span {
+  margin-left: 10px;
+}
