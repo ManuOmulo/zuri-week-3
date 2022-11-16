@@ -35,6 +35,14 @@
   cursor: pointer;
 }
 
+.links li a {
+  color: #000;
+}
+
+.links li a:hover {
+  color: #A02279;
+}
+
 .button {
   padding: 10px 20px;
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);

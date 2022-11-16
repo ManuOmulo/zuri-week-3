@@ -24,3 +24,8 @@ a {
 li {
   list-style-type: none;
 }
+
+.places {
+  width: 80%;
+  margin: 0 auto;
+}

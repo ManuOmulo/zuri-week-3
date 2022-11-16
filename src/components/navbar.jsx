@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 import logo1 from '../assets/logo.png'
 import logo2 from '../assets/logo-2.png'
 import styles from './navbar.module.css'
@@ -17,10 +19,10 @@ export const Navbar = ({}) => {
         </div>
 
         <ul className={styles.links}>
-          <li>Home</li>
-          <li>Place to stay</li>
-          <li>NFTs</li>
-          <li>Community</li>
+          <li><NavLink to="/">Home</NavLink></li>
+          <li><NavLink to="/place-to-stay">Place to stay</NavLink></li>
+          <li><NavLink to="#">NFTs</NavLink></li>
+          <li><NavLink to="#">Community</NavLink></li>
         </ul>
 
         <a className={styles.button} href="#">Connect Wallet</a>
