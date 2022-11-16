@@ -2,7 +2,8 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Modal from "react-modal";
 import { AiOutlineClose } from 'react-icons/ai'
-import { FaChevronRight } from "react-icons/fa";
+import { FaChevronRight, FaHamburger } from "react-icons/fa";
+import { GiHamburgerMenu } from 'react-icons/gi'
 
 import logo1 from '../assets/logo.png'
 import logo2 from '../assets/logo-2.png'
@@ -33,6 +34,7 @@ Modal.setAppElement('#root');
 
 export const Navbar = ({}) => {
   const [modalIsOpen, setIsOpen] = useState(false)
+  const [isOpen, setOpen] = useState(false)
 
   function openModal() {
     setIsOpen(true);
@@ -40,6 +42,11 @@ export const Navbar = ({}) => {
 
   function closeModal() {
     setIsOpen(false);
+  }
+
+  const toggleOpen = (e) => {
+    e.preventDefault()
+    setOpen(!isOpen)
   }
 
 
@@ -56,12 +63,15 @@ export const Navbar = ({}) => {
           </div>
         </div>
 
-        <ul className={styles.links}>
+        <ul className={isOpen ? styles.menu : styles.links}>
           <li><NavLink to="/">Home</NavLink></li>
           <li><NavLink to="/place-to-stay">Place to stay</NavLink></li>
           <li><NavLink to="#">NFTs</NavLink></li>
           <li><NavLink to="#">Community</NavLink></li>
+          <AiOutlineClose className={styles.close} onClick={closeModal} />
         </ul>
+
+        <GiHamburgerMenu onClick={toggleOpen} className={styles.hamburger}/>
 
         <a onClick={openModal} className={styles.button} href="#">Connect Wallet</a>
 
