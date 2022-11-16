@@ -111,3 +111,15 @@
     display: none;
   }
 }
+
+
+@media (max-width: 480px) {
+  .title form input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .title form button {
+    width: 100%;
+  }
+}
