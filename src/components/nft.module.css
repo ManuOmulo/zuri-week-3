@@ -2,4 +2,77 @@
   width: 100%;
   height: 774px;
   background-color: #A02279;
+  color: #fff;
+  padding: 10em 0;
+}
+
+.container .nft {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  height: 100%;
+}
+
+.container .nft .details {
+  width: 40%;
+  margin-top: 5em;
+}
+
+.container .nft .details h2{
+  font-size: 48px;
+}
+
+.container .nft .details p {
+  font-size: 18px;
+  margin: 2em 0;
+  line-height: 40px;
+}
+
+.container .nft .details a {
+  margin-top: 2em;
+  color: #A02279;
+  background-color: #fff;
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+}
+
+.container .nft .photos {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-left: 2em;
+  margin-top: 5em;
+}
+
+.container .nft .photos .photo {
+  position: relative;
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.container .nft .photos img {
+  width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.container .nft .photos .photo:nth-of-type(3) {
+  transform: translateX(-300px) translateY(-150px) rotate(17.76deg);
+  z-index: 1;
+}
+
+.container .nft .photos .photo:nth-of-type(2) {
+  transform: translateX(-100px) translateY(20px) rotate(-26.02deg);
+  z-index: 2;
+}
+
+.container .nft .photos .photo:nth-of-type(1) {
+  transform: translateX(500px) translateY(100px) rotate(-8.76deg);
+  z-index: 3;
 }
